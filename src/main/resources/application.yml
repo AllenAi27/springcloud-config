@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/aiqilong/config-repo.git
+          username: 279550868@qq.com
+          password: Jkjs1970II28
+          basedir: D:\IdeaProject\SpringCloud\config\basedir
+  rabbitmq:
+    host: 192.168.33.129
+    port: 5672
+    username: guest
+    password: guest
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
